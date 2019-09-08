@@ -1,0 +1,269 @@
+/* 轮播图 */
+.banner{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.banner ul{
+	width: 99999px;
+	position: relative;
+	left: 0px;
+}
+.banner ul li{
+	float: left;
+}
+.banner ul li img{
+	width: 100%;
+}
+.banner ol{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -70px;
+	width: 140px;
+	height: 30px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 30px;
+}
+.banner ol li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin: 9px;
+	cursor: pointer;
+}
+.banner span{
+	position: absolute;
+	display: inline-block;
+	background-image: url('../images/icon.png');
+	background-repeat: no-repeat;
+	width: 38px;
+	height: 70px;
+	top: 50%;
+	margin-top: -35px;
+	cursor: pointer;
+	opacity: 0;
+}
+.but-left{
+	background-position: -624px -68px;
+	left: 30px;
+}
+.but-right{
+	background-position: -668px -68px;
+	right: 30px;
+}
+.banner ol .current{
+	background-color: red;
+}
+.new-old{
+	width: 1000px;
+	height: 484px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.heng{
+	width: 1000px;
+	height: 204px;
+	margin: 0px auto;
+	cursor: pointer;
+}
+.list-4{
+	width: 1000px;
+	margin: 0 auto;
+}
+.kou{
+	width: 1000px;
+	margin: 0 auto;
+}
+.m-fenceTitle{
+	margin: 10px 0;
+    padding: 0 5px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 28px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(227, 20, 54);
+}
+/*口碑*/
+.kou,.jj,.da,.mei,.jia,.mu,.ms,.gc{
+	background-color: rgba(0,0,0,0.1);
+}
+.kb::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.kb li{
+    position: relative;
+    width: 200px;
+    height: 284px;
+    float: left;
+    overflow: visible;
+    padding: 0 2.5px 5px;
+    white-space: nowrap;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.good{
+	position: relative;
+	background-color: #fff;
+	border: 1px solid #fff;
+	/* padding: 0 0 10px; */
+
+}
+.good-box{
+	border: 1px solid transparent;
+	transition: all 1s;
+
+}
+.good-box:hover{
+	border: 1px solid #e31436!important;
+	position: absolute;
+	z-index: 999;
+    box-sizing: border-box;
+    left: 2.5px;
+    top: 0;
+}
+.good-img{
+	position: relative;
+}
+.hh5{
+	font-size: 14px;
+    font-weight: 700;
+	margin: 3px 5px;
+	max-height: 22px;
+	line-height: 22px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	transition: all 1s;
+}
+.hh5:hover{
+	text-decoration: underline;
+}
+.kb li:hover .hh5{
+	overflow: visible;
+	white-space: normal;
+	display: inline-block;
+	transition: all 2s;
+}
+.hh6{
+	height: 20px;
+    margin: 0 5px 5px;
+    color: #666;
+    font-size: 12px;
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.newp{
+	height: 15px;
+    border: 1px solid #e31436;
+    border-radius: 3px;
+    background: #fff;
+    color: #e31436;
+    font-size: 12px;
+    line-height: 15px;
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+}
+.rmb{
+	color: rgb(227, 20, 54);
+	font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    left: 10px;
+
+}
+.price{
+	color: rgb(227, 20, 54);
+	font-size: 20px;
+	line-height: 22px;
+    font-weight: bold;
+}
+del{
+	color: #999;
+}
+.pay{
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	height: 24px;
+    line-height: 24px;
+    right: 15px;
+    position: absolute;
+    bottom: 10px;
+    background-color: #e31436;
+    border-radius: 3px;
+    padding: 0 6px;
+}
+.c-cart{
+	position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+.jj{
+	width: 1000px;
+	margin: 0 auto;
+}
+.da{
+	width: 1000px;
+	margin: 0 auto;
+}
+.mei{
+	width: 1000px;
+	margin: 0 auto;
+}
+.jia{
+	width: 1000px;
+	margin: 0 auto;
+}
+.mu{
+	width: 1000px;
+	margin: 0 auto;
+}
+.ms{
+	width: 1000px;
+	margin: 0 auto;
+}
+.gc{
+	width: 1000px;
+	margin: 0 auto;
+}
+/* 考拉说明 */
+.dec{
+	width: 1000px;
+	margin: 0 auto;
+}
+/* 测导航栏 */
+.aside{
+	width: 100px;
+	position: fixed;
+	bottom: 30px;
+	right: 100px;
+	background-color: #e31436;
+	text-align: center;
+	line-height: 30px;
+	display: none;
+}
+.aside ul li{
+	border-bottom: 1px solid rgba(0,0,0,.2);
+	cursor: pointer;
+}
+.aside ul li>a{
+	color: #fff;
+}
+.aside ul i{
+	position: relative;
+	left: -5px;
+	top: 5px;
+}
+.aside ul li:visited{
+	background-color: #b52436;
+}
