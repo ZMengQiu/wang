@@ -15,7 +15,7 @@ a{
 	text-decoration: none;
 }
 .red{
-	color: #f00!important;
+	color: #ffffff;
 }
 /* 导航 */
 .nav{
@@ -354,7 +354,7 @@ input[type='search']{
 	font-weight: 700;
 	text-align: center;
 }
-.tab-ul>li:hover span{
+.tab-ul>li:hover .red{
 	color: red;
 }
 .arr{
